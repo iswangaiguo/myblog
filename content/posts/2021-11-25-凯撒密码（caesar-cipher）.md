@@ -33,7 +33,7 @@ for i in range(0, 3):
 
 > **凯撒密码**（英语：Caesar cipher），或称**凯撒加密**、**凯撒变换**、**变换加密**，是一种最简单且最广为人知的加密技术。凯撒密码是一种[替换加密](https://zh.wikipedia.org/wiki/%E6%9B%BF%E6%8D%A2%E5%BC%8F%E5%AF%86%E7%A0%81)技术，**[明文](https://zh.wikipedia.org/wiki/%E6%98%8E%E6%96%87)中的所有字母都在[字母表](https://zh.wikipedia.org/wiki/%E5%AD%97%E6%AF%8D%E8%A1%A8)上向后（或向前）**按照一个固定数目进行偏移后被替换成[密文](https://zh.wikipedia.org/wiki/%E5%AF%86%E6%96%87)。
 
-![凯撒密码示意图](https://wangaiguo.com/wp-content/uploads/2021/11/image-6.png)
+![凯撒密码示意图](https://objects.wangaiguo.com/wp-content/uploads/2021/11/image-6.png)
 
 这时候答案就明了了，仅对字母表内容做差，python代码内容如下：
 
