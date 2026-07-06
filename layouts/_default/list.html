@@ -3,6 +3,48 @@
 
 {{ partial "header.html" . }}
 
+{{ if .Site.Params.compactIndex }}
+
+<style>
+table.allposts, td.allposts-date, td.allposts-title {
+  border:none;
+}
+td.allposts-date {
+    padding: 0 0.5em 0 0;
+    white-space: nowrap;
+}
+td.allposts-title {
+    font-size: 110%;
+}
+</style>
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article role="article">
+        <header>
+          <h1 class="entry-title">
+            {{ if .Data.Singular }}{{ .Data.Singular | title }}: {{ .Title }}{{ end }}
+          </h1>
+        </header>
+        <table class="allposts">
+          {{ range .Data.Pages }}
+            {{ if .IsPage }}
+              <tr>
+                <td class="allposts-date"><strong>{{ .Date | dateFormat "2006" }}年{{ .Date | dateFormat "01" }}月{{ .Date | dateFormat "02" }}日</strong></td>
+                <td class="allposts-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></td>
+              </tr>
+            {{ end }}
+          {{ end }}
+        </table>
+      </article>
+    </div>
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+
+{{ else }}
+
 <div id="main">
   <div id="content">
     <div>
@@ -50,5 +92,7 @@
     {{ partial "sidebar.html" . }}
   </div>
 </div>
+
+{{ end }}
 
 {{ partial "footer.html" . }}
