@@ -29,12 +29,10 @@ td.allposts-title {
         </header>
         <table class="allposts">
           {{ range .Data.Pages }}
-            {{ if .IsPage }}
               <tr>
                 <td class="allposts-date"><strong>{{ .Date | dateFormat "2006" }}年{{ .Date | dateFormat "01" }}月{{ .Date | dateFormat "02" }}日</strong></td>
                 <td class="allposts-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></td>
               </tr>
-            {{ end }}
           {{ end }}
         </table>
       </article>
