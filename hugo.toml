@@ -70,6 +70,7 @@ theme = "Hugo-Octopress"
   disableGoogleFonts = false
 
   mainSections = ["posts"]
+  customCSS = ["css/custom.css"]
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
