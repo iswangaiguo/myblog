@@ -1,2 +1,17 @@
-{{- /* Bing daily image in header */ -}}
-<script src="{{ "/js/bing-daily.js" | absURL }}"></script>
+{{- /* Bing daily image in header, fetched at build time */ -}}
+{{- $url := "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" -}}
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Err -}}
+    {{- warnf "Bing image fetch failed: %s" . -}}
+  {{- else -}}
+    {{- $data := .Value | transform.Unmarshal -}}
+    {{- with $data.images -}}
+      {{- $img := index . 0 -}}
+      <style>
+        body>header {
+          background-image: url({{ printf "https://cn.bing.com%s" $img.url }});
+        }
+      </style>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
