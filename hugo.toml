@@ -71,5 +71,9 @@ theme = "Hugo-Octopress"
 
   mainSections = ["posts"]
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 
