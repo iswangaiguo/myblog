@@ -23,7 +23,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 export all_proxy=socks5://ip:port
 ```
 
-![安装oh-my-zsh示例](https://objects.wangaiguo.com/wp-content/uploads/2021/10/Screenshot-from-2021-10-01-10-48-07.png)
+![安装oh-my-zsh示例](https://objects.911723.xyz/wp-content/uploads/2021/10/Screenshot-from-2021-10-01-10-48-07.png)
 
 ## 三、安装常用插件
 
@@ -59,7 +59,7 @@ source ~/.zshrc
 
 键入命令时会自动补全历史记录。
 
-![zsh-autosuggestions示例](https://objects.wangaiguo.com/wp-content/uploads/2021/10/Screenshot-from-2021-10-01-11-00-11.png)
+![zsh-autosuggestions示例](https://objects.911723.xyz/wp-content/uploads/2021/10/Screenshot-from-2021-10-01-11-00-11.png)
 
 ### zsh-syntax-highlighting
 

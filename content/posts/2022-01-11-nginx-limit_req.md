@@ -16,7 +16,7 @@ tags:
 
 Nginx限速通过漏桶算法实现，该算法广泛用于分组交换通信网络中，用于处理带宽受限时的突发性。类比是一个桶，水从顶部倒入，从底部漏出；如果倒水的速度超过漏水的速度，水桶就会溢出。在请求处理方面，水代表来自客户端的请求，桶代表一个队列，其中请求根据先进先出 (FIFO) 调度算法等待处理。漏水代表请求退出缓冲区供服务器处理，溢出代表请求被丢弃。
 
-![漏桶算法示意图](https://objects.wangaiguo.com/wp-content/uploads/2022/01/leaky-bucket-featured-image-300x180-3.jpg)
+![漏桶算法示意图](https://objects.911723.xyz/wp-content/uploads/2022/01/leaky-bucket-featured-image-300x180-3.jpg)
 
 ## 基本配置
 

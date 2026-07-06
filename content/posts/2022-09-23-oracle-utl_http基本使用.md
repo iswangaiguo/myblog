@@ -135,10 +135,10 @@ Oracle默认一个Session只能发起5个请求，这里需要在**UTL\_HTTP.END
 
 oracle中插入一条数据 **insert into TEACHER values (215, '111');**
 
-![](https://objects.wangaiguo.com/wp-content/uploads/2022/09/image.png)
+![](https://objects.911723.xyz/wp-content/uploads/2022/09/image.png)
 
 RESTFUL API日志：
 
-![](https://objects.wangaiguo.com/wp-content/uploads/2022/09/image-2.png)
+![](https://objects.911723.xyz/wp-content/uploads/2022/09/image-2.png)
 
 [1]: https://docs.oracle.com/database/121/ARPLS/u_http.htm#ARPLS71070

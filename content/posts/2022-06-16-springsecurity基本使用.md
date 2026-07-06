@@ -24,11 +24,11 @@ tags:
 
 接下来直接启动项目，打开[http://localhost:8080](http://localhost:8080)
 
-![登录页面](https://objects.wangaiguo.com/wp-content/uploads/2022/06/image.png)
+![登录页面](https://objects.911723.xyz/wp-content/uploads/2022/06/image.png)
 
 即使什么代码还没添加，资源已经被保护起来了，打开控制台，可以看到项目启动的时候已经预置了密码
 
-![预置密码](https://objects.wangaiguo.com/wp-content/uploads/2022/06/image-1.png)
+![预置密码](https://objects.911723.xyz/wp-content/uploads/2022/06/image-1.png)
 
 输入默认的用户名user和密码，即可登录。
 
@@ -165,7 +165,7 @@ Date: Thu, 16 Jun 2022 14:29:31 GMT
 注册成功
 ```
 
-![注册成功](https://objects.wangaiguo.com/wp-content/uploads/2022/06/image-2.png)
+![注册成功](https://objects.911723.xyz/wp-content/uploads/2022/06/image-2.png)
 
 可以看到，用户已经注册成功，并且密码也是加密后的密码，接下来使用admin进行登录。
 

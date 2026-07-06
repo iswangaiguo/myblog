@@ -13,19 +13,19 @@ tags:
 
 首先，本地挂载点新建测试文件test.txt，然后将该目录挂载到容器的test目录
 
-![](https://objects.wangaiguo.com/wp-content/uploads/2021/10/image-7.png)
+![](https://objects.911723.xyz/wp-content/uploads/2021/10/image-7.png)
 
 可以看到我们在容器外新建的test.txt文件在容器内的所有者变成了1000，然后我们在容器内新建文件查看容器外的权限，发现容器中新建的test1.txt所有者变成了root
 
-![](https://objects.wangaiguo.com/wp-content/uploads/2021/10/image-8.png)
+![](https://objects.911723.xyz/wp-content/uploads/2021/10/image-8.png)
 
 接着查看下UID：1000所属用户
 
-![](https://objects.wangaiguo.com/wp-content/uploads/2021/10/image-9.png)
+![](https://objects.911723.xyz/wp-content/uploads/2021/10/image-9.png)
 
 最后我们在指定wag用户启动docker，然后在容器内新建test3.txt文件，查看文件所有者
 
-![](https://objects.wangaiguo.com/wp-content/uploads/2021/10/image-10.png)
+![](https://objects.911723.xyz/wp-content/uploads/2021/10/image-10.png)
 
 ## 二、结论
 

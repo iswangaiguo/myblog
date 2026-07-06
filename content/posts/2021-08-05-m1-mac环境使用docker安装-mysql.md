@@ -13,11 +13,11 @@ tags:
 
 在dockerhub搜索MySQL镜像可以发现docker官方并没有提供arm版本的MySQL镜像
 
-![docker官方mysql镜像](https://objects.wangaiguo.com/wp-content/uploads/2021/08/image.png)
+![docker官方mysql镜像](https://objects.911723.xyz/wp-content/uploads/2021/08/image.png)
 
 不过还好MySQL官方提供了arm版本镜像
 
-![arm版本mysql镜像](https://objects.wangaiguo.com/wp-content/uploads/2021/08/image-1.png)
+![arm版本mysql镜像](https://objects.911723.xyz/wp-content/uploads/2021/08/image-1.png)
 
 ## 安装MySQL
 
