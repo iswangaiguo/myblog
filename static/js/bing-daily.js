@@ -1,4 +1,4 @@
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   var header = document.querySelector('body>header');
   if (!header) return;
 
@@ -16,4 +16,4 @@
     }
   };
   xhr.send();
-})();
+});
